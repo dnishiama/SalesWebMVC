@@ -17,14 +17,20 @@ namespace SalesWebMvc.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Sales Web MVC Application - C# Course.";
+            ViewData["Autor"] = "Douglas Hiromi Nishiama";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Autor"] = "Douglas Hiromi Nishiama";
+            ViewData["Email"] = "dnishiama@outlook.com";
+            ViewData["Address1"] = "Rua 1, nº21, Jardim das palmeiras";
+            ViewData["Address2"] = "São José dos Campos, SP";
+            ViewData["Address3"] = "CEP 12237000";
+            ViewData["Phone"] = "+55 12 91234-5678";
 
             return View();
         }

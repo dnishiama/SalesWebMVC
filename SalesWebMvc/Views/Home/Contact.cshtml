@@ -2,16 +2,19 @@
     ViewData["Title"] = "Contact";
 }
 <h2>@ViewData["Title"]</h2>
-<h3>@ViewData["Message"]</h3>
 
 <address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
+    <h3>@ViewData["Autor"]</h3>
+    <h4>
+        Address: @ViewData["Address1"]<br />
+        @ViewData["Address2"] - @ViewData["Address3"]<br />
+    </h4>
+    <h4>
+        Phone: @ViewData["Phone"]
+    </h4>
 </address>
 
 <address>
-    <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
+    <strong>Support:</strong> <a href="mailto:dnishiama@outlook.com">@ViewData["Email"]</a><br />
     <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
 </address>
