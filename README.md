@@ -1,3 +1,8 @@
 # SalesWebMvc
 
-Projeto referente ao curso "C# COMPLETO Programação Orientada a Objetos + Projetos" do Professor Nélio Alves disponível na plataforma UDEMY.COM
+Projeto referente ao curso: 
+
+"C# COMPLETO Programação Orientada a Objetos + Projetos"
+Professor Nélio Alves
+
+Disponível na plataforma UDEMY.COM.
